@@ -10,6 +10,7 @@
 
 </head>
 <body>
+<div class="gray"></div>
 <div class="header"><img src="images/CaptainHookLogo.gif">
     <a href="https://www.facebook.com/anthony.bmth"><img src="images/facebook.gif" class="linkImg last"></a>
     <a href="http://instagram.com/anthonylaraq1994"><img src="images/instagram.gif" class="linkImg"></a>
@@ -21,8 +22,22 @@
     <li><a href="#">Home</a></li>
     <li><a href="#">Gallery</a></li>
     <li><a href="#">About Me</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="contact">Contact</a></li>
 </ul>
+    <!-- Contact Form -->
+
+    <div class="contactBox">
+        <h1>Contact Me</h1>
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email">
+        <label for="emailC" class="left">Confirm E-Mail:</label>
+        <input type="email" id="emailC">
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        <input type="submit" value="Send" id="send"><span class="cancel">Cancel</span>
+    </div>
+
+
     <!-- Jumbotron -->
     <div class="jumbotron">
         <!-- SlidesJS Required: Start Slides -->

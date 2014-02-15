@@ -1,6 +1,25 @@
 $(document).ready(function(){
+//Contact Form
+    //Hide Contact Form from Homepage
+    $('.contactBox').hide();
+    $('.gray').hide();
+    //Call Contact Box on click
+    $('.contact').click(function(){
+       $('.gray').show();
+       $('.contactBox').show();
+    });
+    //Hide Gray and Contact Box on Cancel and Submit
+    $('.cancel').click(function(){
+       $('.gray').hide();
+       $('.contactBox').hide();
+    });
+    $('#send').click(function(){
+        $('.gray').hide();
+        $('.contactBox').hide();
+    });
 
 
+//Slider
 // settings
 var $slider = $('.slider'); // class or id of carousel slider
 var $slide = 'li'; // could also use 'img' if you're not using a ul
