@@ -1,0 +1,179 @@
+/* Danny O'Carroll
+   1863459 */
+
+/* Colors
+    Flat Chocolate: #A84800
+    Brick: #781800
+    Lager: #F0D860
+   Fonts
+    NewRocker
+
+    */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.wrapper {
+    margin-left:12%;
+    margin-right:12%;
+    width:76%;
+}
+body {
+    background-color: black;
+
+}
+footer {
+    text-align: center;
+    background-color: #32c4e3;
+    width:100%;
+    margin-top:65%;
+    height:100px;
+    line-height:100px;
+    color:black;
+    font-weight: bolder;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2em;
+    opacity: .6;
+}
+
+.header {
+    margin-top:-1%;
+    padding-left:10%;
+    height:130px;
+    width:90%;
+    border-bottom:solid 5px grey;
+}
+
+ul {
+    margin-top:.5%;
+    margin-left: 10%;
+}
+
+ul li {
+    color:white;
+    display:inline;
+    list-style: none;
+    font-size: 1.5em;
+    margin-left:2%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.jumbotron {
+    height:300px;
+    width:100%;
+    margin-top:1%;
+}
+
+.jumbotron img {
+    width:100%;
+    height:400px;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+    transition: color linear 2s;
+}
+
+a:hover {
+    color: #32c4e3;
+}
+
+a:visited {
+    color:white;
+}
+
+.rightArrow:hover {
+    color:#32c4e3;
+}
+
+.leftArrow:hover {
+    color:#32c4e3;
+}
+
+#slides img {
+    border-top:solid 5px white;
+    border-bottom:solid 5px white;
+}
+
+.postBox {
+    margin-top:15%;
+    width:60%;
+    float:left;
+}
+
+.postBox h1 {
+    color:#32c4e3;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-left:32%;
+    margin-bottom:5%;
+}
+.postBox h2 {
+    color:#32c4e3;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.postBox img {
+    width:70%;
+    height:500px;
+    border: solid 4px #32c4e3;
+    border-radius:20px;
+    margin-left:9%;
+    margin-top:3%;
+}
+.postBox p {
+    color:white;
+    padding-right:15%;
+
+}
+
+.post {
+    border-right: solid 2px grey;
+}
+
+.date {
+    float:right;
+    color:white;
+    padding-right:15%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.galleryFeed {
+    width:30%;
+    display:inline-block;
+    margin-top:14%;
+    float:left;
+    margin-right:0;
+    padding-left:5%;
+
+}
+.galleryFeed h1{
+    color:#32c4e3;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.galleryFeed img {
+    width:100%;
+    height:200px;
+    border:solid 4px white;
+    border-radius: 20px;
+    margin-top:5%;
+}
+
+.linkImg {
+    width:5%;
+    float:right;
+    margin-top:3%;
+    margin-right:1%;
+    opacity:.6;
+
+}
+.linkImg:hover {
+    opacity:1;
+}
+.last {
+    margin-right:18%;
+}
+
