@@ -257,3 +257,12 @@ a:visited {
     margin-left: 20px;
     text-decoration: underline;
 }
+
+.gold {
+    transition:color linear 2s;
+}
+
+.gold:hover {
+    color:gold;
+}
+
